@@ -18,7 +18,7 @@ local speedActive = false
 speed.MouseButton1Click:Connect(function()
   speedActive = not speedActive
   if speedActive then
-    player.Character.Humanoid.WalkSpeed = 60
+    player.Character.Humanoid.WalkSpeed = 90
     speed.Text = "Speed On"
     speed.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
     else
